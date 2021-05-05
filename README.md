@@ -42,7 +42,7 @@ Dans tous les cas vous devrez indiquer au batch le nom de l'organisation ou du c
 
 ### Clé SSH
 
-Dernier point important, Git utilise le protocole **SSH** pour autoriser les manipulations sur le dépôt. Vous devez vous prémunir d'une clé que vous devrez injecter dans votre configuration GitHub. Pour générer une clé SSH et l'utiliser sous GitHub je vous invite à lire l'article suivant : <https://techblog.ingeniance.fr/creation-dune-cle-ssh-privee-publique/>
+Dernier point important, Git utilise le protocole **SSH** pour autoriser les manipulations sur le dépôt. Vous devez vous prémunir d'une clé que vous devrez injecter dans votre configuration GitHub. Pour générer une clé SSH et l'utiliser sous GitHub je vous invite à lire l'article suivant : <https://developer.gutsfun.com/creation-dune-cle-ssh-privee-publique/>
 
 Une fois votre clé générée, copiez la clé privée dans un dossier `ssh` à la racine du batch et vérifiez que le nom de la clé correspond bien à celui déclaré dans le batch :
 
